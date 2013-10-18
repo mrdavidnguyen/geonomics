@@ -1,0 +1,32 @@
+@font-face {
+	font-family: 'NeoSansStd-Regular';
+	src: url('fonts/NeoSansStd-Regular.eot'); /* IE9 Compat Modes */
+	src: url('fonts/NeoSansStd-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('fonts/NeoSansStd-Regular.woff') format('woff'), /* Modern Browsers */
+	     url('fonts/NeoSansStd-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+	     url('fonts/NeoSansStd-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+	font-weight: normal;
+	}
+	
+@font-face {
+	font-family: 'NeoSansStd-Bold';
+	src: url('fonts/NeoSansStd-Bold.eot'); /* IE9 Compat Modes */
+	src: url('fonts/NeoSansStd-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('fonts/NeoSansStd-Bold.woff') format('woff'), /* Modern Browsers */
+	     url('fonts/NeoSansStd-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+	     url('fonts/NeoSansStd-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+	font-weight: bold;
+	}
+
+
+body {
+  padding-top: 70px;
+}
+
+/* Typography */
+
+h1 {font-family: 'NeoSansStd-Bold', sans-serif; line-height: 1.2; margin-bottom: 0.7em;}
+
+p {font-family: 'NeoSansStd-Regular', sans-serif; font-size: 18px; line-height: 1.5;}
+
+a, a:link, a:visited {color: #a100ff;}

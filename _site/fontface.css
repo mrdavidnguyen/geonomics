@@ -1,0 +1,6 @@
+@font-face {
+  font-family: "NeoSansStd";
+  src: url("NeoSansStd-Regular.woff") format("woff");
+  }
+  
+p { font-family: "NeoSansStd", sans-serif; }

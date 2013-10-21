@@ -25,8 +25,8 @@ body {
 
 /* Typography */
 
-h1 {font-family: 'NeoSansStd-Bold', sans-serif; line-height: 1.2; margin-bottom: 0.7em;}
+/* h1 {font-family: 'NeoSansStd-Bold', sans-serif; line-height: 1.2; margin-bottom: 0.7em;} */
 
-p {font-family: 'NeoSansStd-Regular', sans-serif; font-size: 18px; line-height: 1.5;}
+/* a, a:link, a:visited {color: #a100ff;} */
 
-a, a:link, a:visited {color: #a100ff;}
+body { padding-bottom: 300px; }

@@ -32,3 +32,13 @@ body {
 body { padding-bottom: 300px; font-size: 16px;}
 div.row { margin-bottom: 2em; }
 .navbar-fixed-bottom {background: f8f8f8; border-top: 1px solid #CCCCCC;}
+
+.jumbotron { background: #F8F8F8; }
+
+.jumbotron h1 { line-height: 1.1; }
+
+@media screen and (min-width: 768px) {
+  .jumbotron h1 {
+    font-size: 48px;
+  }
+}

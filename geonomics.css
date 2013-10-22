@@ -30,3 +30,5 @@ body {
 /* a, a:link, a:visited {color: #a100ff;} */
 
 body { padding-bottom: 300px; }
+div.row { margin-bottom: 2em; }
+.navbar-fixed-bottom {background: f8f8f8; border-top: 1px solid #CCCCCC;}

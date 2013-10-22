@@ -29,9 +29,11 @@ body {
 
 /* a, a:link, a:visited {color: #a100ff;} */
 
-body { padding-bottom: 300px; font-size: 16px;}
+body { padding-bottom: 200px; font-size: 16px;}
 div.row { margin-bottom: 2em; }
 .navbar-fixed-bottom {background: f8f8f8; border-top: 1px solid #CCCCCC;}
+h1, h2, h3, h4, h5, h6 {margin-bottom: 0.8em;}
+p {margin-bottom: 1em;}
 
 .jumbotron { background: #F8F8F8; }
 

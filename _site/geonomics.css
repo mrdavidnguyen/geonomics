@@ -34,9 +34,13 @@ div.row { margin-bottom: 2em; }
 .navbar-fixed-bottom {background: f8f8f8; border-top: 1px solid #CCCCCC;}
 h1, h2, h3, h4, h5, h6 {margin-bottom: 0.8em; line-height: 1.3;}
 p {margin-bottom: 1em;}
+.fpo {color: #aaaaaa; font-style: italic;}
 
 .jumbotron { background: #F8F8F8; border: 1px solid #e6e6e6;}
 .jumbotron h1 { line-height: 1.1; }
+
+.navbar-fixed-bottom {font-size: 14px;}
+.well hr {border-color: #dddddd;}
 
 @media screen and (min-width: 768px) {
   .jumbotron h1 {

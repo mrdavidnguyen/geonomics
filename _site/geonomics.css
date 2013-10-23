@@ -35,8 +35,7 @@ div.row { margin-bottom: 2em; }
 h1, h2, h3, h4, h5, h6 {margin-bottom: 0.8em;}
 p {margin-bottom: 1em;}
 
-.jumbotron { background: #F8F8F8; }
-
+.jumbotron { background: #F8F8F8; border: 1px solid #e6e6e6;}
 .jumbotron h1 { line-height: 1.1; }
 
 @media screen and (min-width: 768px) {

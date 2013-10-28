@@ -49,6 +49,8 @@ blockquote p {line-height: 1.4;}
 
 .text-collapse h4 {margin-bottom: 0;}
 
+.page-header h1 {line-height: 1.1;}
+
 @media screen and (min-width: 768px) {
   .jumbotron h1 {
     font-size: 48px;

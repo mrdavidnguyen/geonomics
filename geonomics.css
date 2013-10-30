@@ -1,3 +1,5 @@
+/* ===== TYPOGRAPHY ===== */
+
 @font-face {
 	font-family: 'NeoSansStd-Regular';
 	src: url('fonts/NeoSansStd-Regular.eot'); /* IE9 Compat Modes */
@@ -17,22 +19,50 @@
 	     url('fonts/NeoSansStd-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
 	font-weight: bold;
 	}
+	
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 0;
+	margin-bottom: 0.8em;
+	line-height: 1.4;
+	font-family: 'NeoSansStd-Bold', sans-serif; 
+	color: #2b2b2b;
+}
 
+h1 { 
+	line-height: 1.8;
+	}
+	
+.jumbotron h1 { color: #2b2b2b; line-height: 1.1; margin-bottom: 0.5em; }
+.jumbotron p { font-weight: 400; margin-bottom: 1.5em; }
+
+.lead {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+a { font-weight: bold; }
+
+.page-header p { font-size: 24px; }
+blockquote p { font-weight: 400; }
+
+/* ===== SCAFFOLDING ====== */
 
 body {
   padding-top: 70px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #404040;
 }
 
-/* Typography */
+body.index {
+	background: #e9e9e9;
+}
 
-/* h1 {font-family: 'NeoSansStd-Bold', sans-serif; line-height: 1.2; margin-bottom: 0.7em;} */
+.row { margin-bottom: 1em; }
 
-/* a, a:link, a:visited {color: #a100ff;} */
-
-body {font-size: 16px;}
-.row {margin-bottom: 1em;}
-.navbar-fixed-bottom {background: f8f8f8; border-top: 1px solid #CCCCCC;}
-h1, h2, h3, h4, h5, h6 {margin-top: 0; margin-bottom: 0.8em; line-height: 1.3;}
 p {margin-bottom: 1em;}
 .fpo {color: #dddddd;}
 
@@ -48,8 +78,8 @@ a.btn-primary:hover {
 	  color: rgba(255, 255, 255, 0.5);
 }
 
-.jumbotron { background: #F8F8F8; border: 1px solid #e6e6e6;}
-.jumbotron h1 { line-height: 1.1; }
+.jumbotron { background: none; border: 0; }
+.container .jumbotron { padding-left: 0; padding-right: 0; }
 
 .navbar-fixed-bottom {font-size: 14px;}
 .well hr {border-color: #dddddd;}
@@ -65,17 +95,28 @@ blockquote p {font-size: 24px; line-height: 1.4;}
 
 .thumbnail {margin-bottom: 1.2em;}
 
-/* ===== Navigation ====== */
+/* ===== NAVIGATION ====== */
 
-.navbar-fixed-top { background: #e9e9e9; border-bottom: none; border-top: 2px solid #A100FF; }
+.navbar-fixed-top { 
+	background: #e9e9e9;
+	border-bottom: 1px solid #ffffff;
+	border-top: 4px solid #2b2b2b;
+	}
+
+/* Change color of top nav links */
+.navbar-default .navbar-nav > li > a { font-weight: 400; font-family: 'NeoSansStd-Regular'; font-size: 18px; color: #959595; }
+
 .nav-tabs { margin-bottom: 1em; }
+
 a.navbar-brand strong { color: #2b2b2b; }
+a.navbar-brand { font-size: 18px; font-family: 'NeoSansStd-Bold';}
 .nav a {color: #A100FF;}
 
 /* ===== Media Queries ====== */
 
 @media screen and (min-width: 768px) {
-  .jumbotron h1 {
-    font-size: 48px;
-  }
+  .jumbotron h1 { font-size: 48px; }
+  
+	body { font-size: 20px; }
+	h1 { font-size: 40px; }
 }

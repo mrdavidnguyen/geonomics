@@ -52,13 +52,23 @@ body {
   padding-top: 70px;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1.4;
   color: #404040;
 }
 
-body.index {
+/* body.index {
 	background: #e9e9e9;
+} */
+
+body.geolotto .page-header {
+	background-image:url('images/lines.png');
+	background-opacity: 0.5;
+	background-color: #f2f2f2;
+	margin-top: 0;
+	padding-top: 40px;
+	padding-bottom: 160px;
+	
 }
 
 .row { margin-bottom: 1em; }
@@ -78,8 +88,8 @@ a.btn-primary:hover {
 	  color: rgba(255, 255, 255, 0.5);
 }
 
-.jumbotron { background: none; border: 0; }
-.container .jumbotron { padding-left: 0; padding-right: 0; }
+.jumbotron { background: none; border: 0;}
+.container .jumbotron { padding-left: 0; padding-right: 0;}
 
 .navbar-fixed-bottom {font-size: 14px;}
 .well hr {border-color: #dddddd;}
@@ -102,6 +112,9 @@ blockquote p {font-size: 24px; line-height: 1.4;}
 	border-bottom: 1px solid #ffffff;
 	border-top: 4px solid #2b2b2b;
 	}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover { background-color: #2b2b2b; color: #ffffff;}
 
 /* Change color of top nav links */
 .navbar-default .navbar-nav > li > a { font-weight: 400; font-family: 'NeoSansStd-Regular'; font-size: 18px; color: #959595; }

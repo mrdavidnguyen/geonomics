@@ -71,6 +71,11 @@ body.geolotto .page-header {
 	
 }
 
+body.geolotto .navbar .navbar-default .navbar-fixed-top {
+	margin-bottom: 0;
+	
+}
+
 .row { margin-bottom: 1em; }
 
 p {margin-bottom: 1em;}
@@ -98,7 +103,7 @@ blockquote p {font-size: 24px; line-height: 1.4;}
 
 .staff {margin-bottom: 0;}
 
-.text-collapse h4 {margin-bottom: 0;}
+.text-collapse h1, .text-collapse h2, .text-collapse h3, .text-collapse h4 {margin-bottom: 0;}
 
 .page-header h1 {line-height: 1.1;}
 .page-header {border-bottom: none;}
